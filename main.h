@@ -123,7 +123,6 @@ int write_unsgnd(int is_negative, int ind,
 char buffer[],
 	int flags, int width, int precision, int size);
 
-/****************** UTILS ******************/
 
 
 int is_printable(char);
