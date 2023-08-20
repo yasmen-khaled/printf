@@ -116,7 +116,7 @@ int print_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	char *s;
-	int x, c= 0;
+	int x, c = 0;
 
 	UNUSED(buffer);
 	UNUSED(flags);
