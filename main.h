@@ -93,9 +93,9 @@ char buffer[],
 	int flags, int width, int precision, int size);
 
 /* UTILS */
-int is_printable(char);
-int append_hexa_code(char, char[], int);
-int is_digit(char);
+int is_printable(char c);
+int append_hexa_code(char ascii_code, char buffer[], int i);
+int is_digit(char c);
 
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
