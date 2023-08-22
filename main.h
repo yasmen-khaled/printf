@@ -16,7 +16,10 @@
 #define S_LONG 2
 #define S_SHORT 1
 
-/* formats string */
+/**
+ * struct fmt - Structure for format specifications
+ *@fmt: fomats string
+ */
 struct fmt
 {
 	char fmt;
